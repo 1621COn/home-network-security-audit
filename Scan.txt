@@ -1,0 +1,44 @@
+# Nmap 7.94SVN scan initiated as: nmap -sV -T4 -oN portfolio_scan.txt 192.168.1.0/24
+Nmap scan report for Target-Gateway.local (192.168.1.1)
+Host is up (0.0068s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+53/tcp  open  domain   Cloudflare public DNS
+80/tcp  open  http     lighttpd 1.4.59
+443/tcp open  ssl/http lighttpd 1.4.59
+
+Nmap scan report for IoT-Smart-Display.local (192.168.1.81)
+Host is up (0.011s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+7000/tcp open  rtsp    AirTunes rtspd
+9080/tcp open  glrpc?
+
+Nmap scan report for Mobile-Endpoint-1.local (192.168.1.104)
+Host is up (0.0093s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  tcpwrapped
+62078/tcp open  tcpwrapped
+
+Nmap scan report for Mobile-Endpoint-2.local (192.168.1.147)
+Host is up (0.0096s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  tcpwrapped
+62078/tcp open  tcpwrapped
+
+Nmap scan report for Analyst-Audit-Workstation.local (192.168.1.183)
+Host is up (0.0019s latency).
+All 1000 scanned ports on Analyst-Audit-Workstation.local are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for Mobile-Endpoint-3.local (192.168.1.236)
+Host is up (0.014s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  tcpwrapped
+62078/tcp open  tcpwrapped
+
+
+# Nmap done -- 256 IP addresses (6 hosts up) scanned in 161.38 seconds
